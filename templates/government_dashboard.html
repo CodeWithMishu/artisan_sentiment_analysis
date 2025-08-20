@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HP Artisan Market Intelligence - Government Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: #f5f7fa;
+        color: #333;
+      }
+
+      .header {
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .header h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+      }
+
+      .header p {
+        font-size: 1.2em;
+        opacity: 0.9;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .dashboard-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        border-left: 5px solid #2a5298;
+      }
+
+      .card h3 {
+        color: #2a5298;
+        margin-bottom: 15px;
+        font-size: 1.3em;
+      }
+
+      .district-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+      }
+
+      .district-card {
+        background: white;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease;
+      }
+
+      .district-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+      }
+
+      .district-card h4 {
+        color: #2a5298;
+        margin-bottom: 15px;
+        font-size: 1.4em;
+        text-transform: capitalize;
+      }
+
+      .metric {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
+        padding: 8px 0;
+        border-bottom: 1px solid #eee;
+      }
+
+      .metric:last-child {
+        border-bottom: none;
+      }
+
+      .metric-label {
+        font-weight: 500;
+        color: #666;
+      }
+
+      .metric-value {
+        font-weight: bold;
+        color: #2a5298;
+      }
+
+      .status-indicator {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        margin-right: 8px;
+      }
+
+      .status-operational {
+        background: #28a745;
+      }
+      .status-warning {
+        background: #ffc107;
+      }
+      .status-error {
+        background: #dc3545;
+      }
+
+      .demand-high {
+        color: #28a745;
+        font-weight: bold;
+      }
+      .demand-medium {
+        color: #ffc107;
+        font-weight: bold;
+      }
+      .demand-low {
+        color: #dc3545;
+        font-weight: bold;
+      }
+
+      .btn {
+        background: #2a5298;
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background 0.3s ease;
+      }
+
+      .btn:hover {
+        background: #1e3c72;
+      }
+
+      .btn-secondary {
+        background: #6c757d;
+      }
+
+      .btn-secondary:hover {
+        background: #545b62;
+      }
+
+      #map {
+        height: 400px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+      }
+
+      .loading {
+        text-align: center;
+        padding: 40px;
+        color: #666;
+      }
+
+      .loading::after {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid #f3f3f3;
+        border-top: 3px solid #2a5298;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin-left: 10px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .alert {
+        background: #d4edda;
+        border: 1px solid #c3e6cb;
+        color: #155724;
+        padding: 15px;
+        border-radius: 6px;
+        margin: 15px 0;
+      }
+
+      .alert-warning {
+        background: #fff3cd;
+        border-color: #ffeaa7;
+        color: #856404;
+      }
+
+      /* Modal styles for in-page report viewer */
+      .modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 2000;
+      }
+
+      .modal-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+      }
+
+      .modal-dialog {
+        position: relative;
+        background: #f9fafb;
+        border-radius: 10px;
+        max-width: 90%;
+        width: 900px;
+        max-height: 90vh;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+        z-index: 2001;
+        overflow: hidden;
+      }
+
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 16px;
+        border-bottom: 1px solid #e6e9ef;
+        background: #ffffff;
+      }
+
+      .modal-body {
+        padding: 16px;
+        background: #fff;
+      }
+
+      .alert-danger {
+        background: #f8d7da;
+        border-color: #f5c6cb;
+        color: #721c24;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>🏛️ Himachal Pradesh Government</h1>
+      <p>Artisan Market Intelligence Dashboard</p>
+      <p style="font-size: 0.9em; opacity: 0.8">
+        Industries, Labour & Parliamentary Affairs Department
+      </p>
+    </div>
+
+    <div class="container">
+      <!-- System Status -->
+      <div class="dashboard-grid">
+        <div class="card">
+          <!-- Report Modal (in-page) -->
+          <div id="report-modal" class="modal" style="display: none">
+            <div class="modal-overlay" onclick="closeModal()"></div>
+            <div
+              class="modal-dialog"
+              role="dialog"
+              aria-modal="true"
+              aria-labelledby="report-modal-title"
+            >
+              <div class="modal-header">
+                <h3 id="report-modal-title">Report</h3>
+                <button class="btn btn-secondary" onclick="closeModal()">
+                  Close
+                </button>
+              </div>
+              <div
+                id="report-modal-body"
+                class="modal-body"
+                style="
+                  overflow: auto;
+                  max-height: 70vh;
+                  padding: 16px;
+                  background: #fff;
+                "
+              ></div>
+            </div>
+          </div>
+          <h3>🟢 System Status</h3>
+          <div class="metric">
+            <span class="metric-label">
+              <span class="status-indicator status-operational"></span>
+              Status
+            </span>
+            <span class="metric-value">Operational</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">Last Update</span>
+            <span class="metric-value" id="last-update">Loading...</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">Data Sources</span>
+            <span class="metric-value">Twitter, Instagram, Facebook</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>📊 Statewide Overview</h3>
+          <div class="metric">
+            <span class="metric-label">Districts Monitored</span>
+            <span class="metric-value" id="districts-count">10</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">Total Posts Analyzed</span>
+            <span class="metric-value" id="total-posts">Loading...</span>
+          </div>
+          <div class="metric">
+            <span class="metric-label">High Demand Products</span>
+            <span class="metric-value" id="high-demand-count">Loading...</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>🎯 Quick Actions</h3>
+          <button class="btn" onclick="runStatewideScan()">
+            🔄 Run Statewide Scan
+          </button>
+          <br /><br />
+          <button class="btn btn-secondary" onclick="exportReports()">
+            📄 Export All Reports
+          </button>
+          <br /><br />
+          <button class="btn btn-secondary" onclick="refreshData()">
+            ↻ Refresh Data
+          </button>
+        </div>
+      </div>
+
+      <!-- District Analysis Cards -->
+      <div id="districts-container">
+        <div class="loading">Loading district data...</div>
+      </div>
+
+      <!-- Map View (moved to bottom) -->
+      <div class="card" style="margin-top: 30px">
+        <h3>🗺️ Himachal Pradesh Districts Map</h3>
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <script>
+      // Load marked.js from CDN for markdown rendering
+      const scriptMarked = document.createElement("script");
+      scriptMarked.src = "https://cdn.jsdelivr.net/npm/marked/marked.min.js";
+      document.head.appendChild(scriptMarked);
+
+      let map;
+      let districtsData = {};
+
+      // Initialize map
+      function initMap() {
+        map = L.map("map").setView([31.1048, 77.1734], 8); // Centered on HP
+
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+          attribution: "© OpenStreetMap contributors",
+        }).addTo(map);
+      }
+
+      // Load district data
+      async function loadDistrictsData() {
+        try {
+          const response = await fetch("/api/realtime-monitoring");
+          const data = await response.json();
+
+          districtsData = data.districts;
+          updateSystemMetrics(data);
+          renderDistrictCards();
+          addMapMarkers();
+        } catch (error) {
+          console.error("Error loading data:", error);
+          document.getElementById("districts-container").innerHTML =
+            '<div class="alert alert-danger">Error loading data. Please refresh the page.</div>';
+        }
+      }
+
+      // Update system metrics
+      function updateSystemMetrics(data) {
+        document.getElementById("last-update").textContent = new Date(
+          data.timestamp
+        ).toLocaleString();
+
+        let totalPosts = 0;
+        let highDemandCount = 0;
+
+        Object.values(data.districts).forEach((district) => {
+          totalPosts += district.total_posts || 0;
+          highDemandCount += district.high_demand_categories || 0;
+        });
+
+        document.getElementById("total-posts").textContent =
+          totalPosts.toLocaleString();
+        document.getElementById("high-demand-count").textContent =
+          highDemandCount;
+      }
+
+      // Render district cards
+      function renderDistrictCards() {
+        const container = document.getElementById("districts-container");
+        let html = '<div class="district-grid">';
+
+        // District coordinates for map
+        const districtCoords = {
+          kangra: [32.0998, 76.2673],
+          chamba: [32.5522, 76.1247],
+          solan: [30.9045, 77.0999],
+          mandi: [31.7058, 76.9318],
+          bilaspur: [31.3314, 76.7553],
+          sirmaur: [30.5629, 77.291],
+          shimla: [31.1048, 77.1734],
+          kinnaur: [31.6077, 78.2353],
+          lahaul_spiti: [32.5734, 77.6131],
+          una: [31.4685, 76.2711],
+        };
+
+        Object.entries(districtsData).forEach(([district, data]) => {
+          const sentimentClass =
+            data.overall_sentiment > 0.1
+              ? "demand-high"
+              : data.overall_sentiment < -0.1
+              ? "demand-low"
+              : "demand-medium";
+
+          html += `
+                    <div class="district-card">
+                        <h4>${district.replace("_", " ")}</h4>
+                        
+                        <div class="metric">
+                            <span class="metric-label">Overall Sentiment</span>
+                            <span class="metric-value ${sentimentClass}">
+                                ${
+                                  data.overall_sentiment
+                                    ? data.overall_sentiment.toFixed(3)
+                                    : "N/A"
+                                }
+                            </span>
+                        </div>
+                        
+                        <div class="metric">
+                            <span class="metric-label">Posts Analyzed</span>
+                            <span class="metric-value">${
+                              data.total_posts || 0
+                            }</span>
+                        </div>
+                        
+                        <div class="metric">
+                            <span class="metric-label">High Demand Products</span>
+                            <span class="metric-value demand-high">${
+                              data.high_demand_categories || 0
+                            }</span>
+                        </div>
+                        
+                        <div class="metric">
+                            <span class="metric-label">Last Updated</span>
+                            <span class="metric-value">
+                                ${
+                                  data.last_updated
+                                    ? new Date(
+                                        data.last_updated
+                                      ).toLocaleDateString()
+                                    : "Never"
+                                }
+                            </span>
+                        </div>
+                        
+                        <br>
+                        <button class="btn" onclick="analyzeDistrict('${district}')">
+                            🔍 Analyze ${district.replace("_", " ")}
+                        </button>
+                        <br><br>
+                        <button class="btn btn-secondary" onclick="viewReport('${district}')">
+                            📊 View Report
+                        </button>
+                    </div>
+                `;
+        });
+
+        html += "</div>";
+        container.innerHTML = html;
+      }
+
+      // Add map markers
+      function addMapMarkers() {
+        const districtCoords = {
+          kangra: [32.0998, 76.2673],
+          chamba: [32.5522, 76.1247],
+          solan: [30.9045, 77.0999],
+          mandi: [31.7058, 76.9318],
+          bilaspur: [31.3314, 76.7553],
+          sirmaur: [30.5629, 77.291],
+          shimla: [31.1048, 77.1734],
+          kinnaur: [31.6077, 78.2353],
+          lahaul_spiti: [32.5734, 77.6131],
+          una: [31.4685, 76.2711],
+        };
+
+        Object.entries(districtCoords).forEach(([district, coords]) => {
+          const data = districtsData[district] || {};
+          const markerColor =
+            data.high_demand_categories > 2
+              ? "green"
+              : data.high_demand_categories > 0
+              ? "orange"
+              : "red";
+
+          const marker = L.marker(coords).addTo(map);
+          marker.bindPopup(`
+                    <b>${district.replace("_", " ").toUpperCase()}</b><br>
+                    High Demand Products: ${
+                      data.high_demand_categories || 0
+                    }<br>
+                    Posts Analyzed: ${data.total_posts || 0}<br>
+                    Sentiment: ${
+                      data.overall_sentiment
+                        ? data.overall_sentiment.toFixed(3)
+                        : "N/A"
+                    }
+                `);
+        });
+      }
+
+      // Action functions
+      async function analyzeDistrict(district) {
+        const btn = event.target;
+        btn.disabled = true;
+        btn.textContent = "Analyzing...";
+
+        try {
+          const response = await fetch(`/api/analyze/${district}`);
+          const result = await response.json();
+
+          if (result.status === "success") {
+            alert(
+              `Analysis completed for ${district}!\n\nCheck the reports section for detailed insights.`
+            );
+            loadDistrictsData(); // Refresh data
+          } else {
+            alert(`Error: ${result.message}`);
+          }
+        } catch (error) {
+          alert(`Error analyzing ${district}: ${error.message}`);
+        }
+
+        btn.disabled = false;
+        btn.textContent = `🔍 Analyze ${district.replace("_", " ")}`;
+      }
+
+      async function viewReport(district) {
+        try {
+          // Prefer markdown report endpoint for readable output
+          const response = await fetch(`/api/report_md/${district}`);
+          if (response.ok) {
+            const md = await response.text();
+
+            // Wait for marked to be available
+            const waitForMarked = () =>
+              new Promise((resolve) => {
+                const check = () => {
+                  if (window.marked) resolve();
+                  else setTimeout(check, 50);
+                };
+                check();
+              });
+
+            await waitForMarked();
+
+            const html = marked.parse(md);
+            showModal(
+              html,
+              `${district.replace("_", " ").toUpperCase()} Report`
+            );
+          } else {
+            alert("No report available for this district yet.");
+          }
+        } catch (error) {
+          alert(`Error loading report: ${error.message}`);
+        }
+      }
+
+      function runStatewideScan() {
+        if (
+          confirm(
+            "This will analyze all districts. This may take several minutes. Continue?"
+          )
+        ) {
+          // Show loading indicator
+          const loadingMsg = document.createElement("div");
+          loadingMsg.id = "scan-loading";
+          loadingMsg.innerHTML = "<b>🔄 Statewide scan in progress...</b>";
+          document.body.appendChild(loadingMsg);
+          fetch("/api/statewide-scan", { method: "POST" })
+            .then((response) => response.json())
+            .then((data) => {
+              document.body.removeChild(loadingMsg);
+              if (data.status === "completed") {
+                // Show summary in modal instead of new window
+                const html = `
+                  <h1>Statewide Scan Results</h1>
+                  <pre>${JSON.stringify(data.results, null, 2)}</pre>
+                `;
+                showModal(html, "Statewide Scan Results");
+              } else {
+                alert("Scan failed: " + (data.message || "Unknown error"));
+              }
+            })
+            .catch((error) => {
+              document.body.removeChild(loadingMsg);
+              alert("Error running statewide scan: " + error.message);
+            });
+        }
+      }
+
+      // Modal helpers
+      function showModal(htmlContent, title) {
+        const modal = document.getElementById("report-modal");
+        const body = document.getElementById("report-modal-body");
+        const titleEl = document.getElementById("report-modal-title");
+        titleEl.textContent = title || "Report";
+        body.innerHTML = htmlContent;
+        modal.style.display = "block";
+      }
+
+      function closeModal() {
+        const modal = document.getElementById("report-modal");
+        const body = document.getElementById("report-modal-body");
+        body.innerHTML = "";
+        modal.style.display = "none";
+      }
+
+      async function exportReports() {
+        try {
+          const resp = await fetch("/api/export-all");
+          if (!resp.ok) {
+            const err = await resp
+              .json()
+              .catch(() => ({ message: "Export failed" }));
+            alert("Export failed: " + (err.message || JSON.stringify(err)));
+            return;
+          }
+
+          const blob = await resp.blob();
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "hp_reports.zip";
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+          window.URL.revokeObjectURL(url);
+        } catch (e) {
+          alert("Export failed: " + e.message);
+        }
+      }
+
+      function refreshData() {
+        loadDistrictsData();
+      }
+
+      // Initialize on page load
+      document.addEventListener("DOMContentLoaded", function () {
+        initMap();
+        loadDistrictsData();
+
+        // Auto-refresh every 5 minutes
+        setInterval(loadDistrictsData, 300000);
+      });
+    </script>
+  </body>
+</html>
