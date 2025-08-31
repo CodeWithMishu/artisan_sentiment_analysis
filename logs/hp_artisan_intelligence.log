@@ -2144,3 +2144,1760 @@
 2025-08-20 21:55:26,657 - advanced_sentiment_engine - INFO - Processed 40/100 posts
 2025-08-20 21:55:28,475 - advanced_sentiment_engine - INFO - Processed 60/100 posts
 2025-08-20 21:55:30,319 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-21 12:38:01,246 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-21 12:38:03,126 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-21 12:38:16,602 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-21 12:38:18,602 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-21 12:38:20,745 - advanced_sentiment_engine - INFO - Advanced AI models loaded successfully
+2025-08-21 12:38:20,746 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-21 12:38:20,746 - government_dashboard - INFO - Starting background analysis loop every 300s
+2025-08-21 12:38:20,749 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-21 12:38:20,749 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-21 12:38:20,757 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.71:5000
+2025-08-21 12:38:20,758 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-21 12:38:20,771 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:38:20,771 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-21 12:38:20,772 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-21 12:38:21,905 - advanced_sentiment_engine - INFO - Advanced AI models loaded successfully
+2025-08-21 12:38:21,907 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-21 12:38:21,907 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-21 12:38:21,933 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:38:21,934 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-21 12:38:21,934 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-21 12:38:22,879 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-21 12:38:24,692 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-21 12:38:25,253 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-21 12:38:27,373 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-21 12:38:28,646 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:38:28] "GET / HTTP/1.1" 200 -
+2025-08-21 12:38:29,337 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-21 12:38:30,255 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:38:30] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-21 12:38:30,420 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:38:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-21 12:38:30,644 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-21 12:38:32,974 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-21 12:38:33,494 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-21 12:38:36,941 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-21 12:38:36,990 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:38:36,991 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-21 12:38:36,992 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-21 12:38:39,290 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-21 12:38:39,327 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-21 12:38:43,728 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-21 12:38:44,704 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-21 12:38:46,017 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-21 12:38:50,500 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-21 12:38:50,637 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-21 12:38:51,501 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-21 12:38:51,553 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:38:51,555 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-21 12:38:51,558 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-21 12:38:53,527 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-21 12:38:56,756 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-21 12:38:59,084 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:38:59] "GET /api/report_md/kangra HTTP/1.1" 200 -
+2025-08-21 12:38:59,124 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-21 12:39:00,467 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-21 12:39:02,212 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-21 12:39:03,369 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-21 12:39:07,920 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-21 12:39:09,174 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-21 12:39:09,557 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-21 12:39:10,762 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250821_123910.md
+2025-08-21 12:39:10,803 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-21 12:39:10,804 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-21 12:39:10,878 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:39:10,885 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-21 12:39:10,890 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-21 12:39:15,808 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250821_123915.md
+2025-08-21 12:39:15,814 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-21 12:39:15,889 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:39:15,889 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-21 12:39:15,890 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-21 12:39:16,569 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-21 12:39:17,943 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-21 12:39:19,676 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-21 12:39:23,027 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-21 12:39:26,089 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-21 12:39:27,475 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-21 12:39:29,193 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-21 12:39:29,637 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-21 12:39:35,103 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-21 12:39:35,877 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-21 12:39:36,679 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-21 12:39:38,653 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-21 12:39:42,096 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-21 12:39:42,456 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:39:42] "GET /api/export-all HTTP/1.1" 200 -
+2025-08-21 12:39:44,093 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:39:44] "GET /api/export-all HTTP/1.1" 200 -
+2025-08-21 12:39:46,384 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-21 12:39:47,906 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-21 12:39:48,925 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-21 12:39:49,694 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-21 12:39:55,883 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-21 12:39:55,909 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-21 12:39:57,577 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-21 12:39:59,161 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-21 12:40:02,587 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-21 12:40:04,596 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250821_124004.md
+2025-08-21 12:40:04,603 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-21 12:40:04,642 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:40:04,644 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-21 12:40:04,646 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-21 12:40:05,823 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250821_124005.md
+2025-08-21 12:40:05,828 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-21 12:40:05,909 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:40:05,911 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-21 12:40:05,912 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-21 12:40:06,537 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-21 12:40:08,397 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-21 12:40:12,672 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-21 12:40:12,799 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:40:12] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-21 12:40:14,423 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-21 12:40:16,790 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-21 12:40:18,525 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-21 12:40:20,516 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-21 12:40:23,599 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250821_124023.md
+2025-08-21 12:40:23,606 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-21 12:40:23,608 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-21 12:40:23,667 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:40:23,670 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-21 12:40:23,672 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-21 12:40:24,790 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-21 12:40:26,433 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250821_124026.md
+2025-08-21 12:40:26,439 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:40:26] "GET /api/analyze/kangra HTTP/1.1" 200 -
+2025-08-21 12:40:27,572 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-21 12:40:31,229 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-21 12:40:32,286 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-21 12:40:33,268 - werkzeug - INFO - 127.0.0.1 - - [21/Aug/2025 12:40:33] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-21 12:40:33,414 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-21 12:40:38,209 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-21 12:40:39,067 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-21 12:40:39,170 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-21 12:40:45,078 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-21 12:40:45,579 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-21 12:40:46,323 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-21 12:40:51,349 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-21 12:40:53,288 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-21 12:40:54,031 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-21 12:40:54,033 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250821_124054.md
+2025-08-21 12:40:54,036 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-21 12:40:54,101 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:40:54,103 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-21 12:40:54,104 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-21 12:41:00,025 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-21 12:41:00,536 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-21 12:41:01,284 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-21 12:41:04,763 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250821_124104.md
+2025-08-21 12:41:04,769 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-21 12:41:04,820 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:41:04,822 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-21 12:41:04,824 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-21 12:41:05,906 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-21 12:41:07,948 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-21 12:41:11,712 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-21 12:41:11,960 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-21 12:41:15,005 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-21 12:41:17,251 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-21 12:41:23,439 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250821_124123.md
+2025-08-21 12:41:23,441 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-21 12:41:23,461 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-21 12:41:23,462 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-21 12:41:23,463 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-21 12:41:29,496 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-21 12:41:36,798 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-21 12:41:40,381 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250821_124140.md
+2025-08-28 11:50:16,176 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-28 11:50:47,880 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-28 11:50:48,174 - advanced_sentiment_engine - WARNING - Advanced models failed to load: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/nlptown/bert-base-multilingual-uncased-sentiment/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001685B1E38D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: eab5a42e-6473-442f-a03a-15071d9524e0)')
+2025-08-28 11:50:48,174 - advanced_sentiment_engine - INFO - Falling back to basic models (VADER + TextBlob)
+2025-08-28 11:50:48,177 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-28 11:50:48,179 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 11:50:48,217 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:48,217 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 11:50:48,218 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 11:50:48,354 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 11:50:48,383 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 11:50:48,421 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 11:50:48,459 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 11:50:48,492 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 11:50:48,525 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 11:50:48,561 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 11:50:48,592 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 11:50:48,624 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 11:50:48,659 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_115048.md
+2025-08-28 11:50:48,663 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 11:50:48,679 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:48,679 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 11:50:48,680 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:50:48,710 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:50:48,734 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:50:48,765 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:50:48,797 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:50:48,836 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:50:48,876 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:50:48,914 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:50:48,935 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_115048.md
+2025-08-28 11:50:48,937 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 11:50:48,953 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:48,953 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 11:50:48,954 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:50:48,989 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:50:49,023 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:50:49,060 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:50:49,102 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:50:49,154 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:50:49,191 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:50:49,223 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:50:49,240 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_115049.md
+2025-08-28 11:50:49,244 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 11:50:49,257 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:49,257 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 11:50:49,258 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 11:50:49,290 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 11:50:49,325 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 11:50:49,362 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 11:50:49,407 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 11:50:49,453 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_115049.md
+2025-08-28 11:50:49,455 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 11:50:49,476 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:49,477 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 11:50:49,477 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:50:49,525 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:50:49,572 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:50:49,600 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_115049.md
+2025-08-28 11:50:56,190 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-28 11:50:56,994 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-28 11:50:59,384 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-28 11:50:59,502 - advanced_sentiment_engine - WARNING - Advanced models failed to load: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/nlptown/bert-base-multilingual-uncased-sentiment/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027C933DD550>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 530a3ed0-842b-45d2-adce-03bad4450ea6)')
+2025-08-28 11:50:59,503 - advanced_sentiment_engine - INFO - Falling back to basic models (VADER + TextBlob)
+2025-08-28 11:50:59,504 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-28 11:50:59,505 - government_dashboard - INFO - Starting background analysis loop every 300s
+2025-08-28 11:50:59,509 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 11:50:59,509 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 11:50:59,525 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:59,525 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 11:50:59,525 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 11:50:59,571 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.27:5000
+2025-08-28 11:50:59,572 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 11:50:59,591 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 11:50:59,620 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 11:50:59,644 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 11:50:59,665 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 11:50:59,685 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 11:50:59,706 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 11:50:59,726 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 11:50:59,749 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 11:50:59,768 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 11:50:59,789 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_115059.md
+2025-08-28 11:50:59,822 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 11:50:59,823 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 11:50:59,837 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:50:59,838 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 11:50:59,838 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:50:59,863 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:50:59,883 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:50:59,905 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:50:59,925 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:50:59,954 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:50:59,973 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:51:00,012 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:51:00,034 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_115100.md
+2025-08-28 11:51:00,037 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 11:51:00,038 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 11:51:00,049 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,050 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 11:51:00,050 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:51:00,073 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:51:00,096 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:51:00,122 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:51:00,147 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:51:00,170 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:51:00,191 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:51:00,211 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:51:00,224 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_115100.md
+2025-08-28 11:51:00,227 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 11:51:00,228 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 11:51:00,240 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,240 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 11:51:00,241 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 11:51:00,263 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 11:51:00,287 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 11:51:00,307 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 11:51:00,327 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 11:51:00,348 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_115100.md
+2025-08-28 11:51:00,351 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 11:51:00,351 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-28 11:51:00,351 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 11:51:00,364 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,364 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 11:51:00,365 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:00,388 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:00,411 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:00,424 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_115100.md
+2025-08-28 11:51:00,426 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 11:51:00,426 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 11:51:00,439 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,439 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 11:51:00,439 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:00,463 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:00,479 - advanced_sentiment_engine - WARNING - Advanced models failed to load: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/nlptown/bert-base-multilingual-uncased-sentiment/tree/main/additional_chat_templates?recursive=False&expand=False (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000027BFE9DAD90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d6ddae68-9e89-45e2-858c-13307fe13c51)')
+2025-08-28 11:51:00,480 - advanced_sentiment_engine - INFO - Falling back to basic models (VADER + TextBlob)
+2025-08-28 11:51:00,481 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-28 11:51:00,483 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:00,483 - government_dashboard - INFO - Starting background analysis loop every 300s
+2025-08-28 11:51:00,487 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 11:51:00,488 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 11:51:00,498 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_115100.md
+2025-08-28 11:51:00,500 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 11:51:00,500 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 11:51:00,504 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,505 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 11:51:00,505 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 11:51:00,513 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,513 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 11:51:00,514 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:00,544 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:00,548 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.27:5000
+2025-08-28 11:51:00,550 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 11:51:00,570 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 11:51:00,573 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:00,584 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_115100.md
+2025-08-28 11:51:00,588 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 11:51:00,588 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 11:51:00,595 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 11:51:00,602 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,602 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 11:51:00,603 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 11:51:00,617 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 11:51:00,625 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 11:51:00,638 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 11:51:00,648 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 11:51:00,659 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 11:51:00,671 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 11:51:00,679 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 11:51:00,692 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 11:51:00,701 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 11:51:00,717 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_115100.md
+2025-08-28 11:51:00,720 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 11:51:00,721 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 11:51:00,731 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 11:51:00,735 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,736 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 11:51:00,736 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:00,755 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 11:51:00,761 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:00,778 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_115100.md
+2025-08-28 11:51:00,781 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 11:51:00,782 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 11:51:00,787 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:00,794 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,795 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 11:51:00,795 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:51:00,799 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_115100.md
+2025-08-28 11:51:00,801 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 11:51:00,802 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 11:51:00,814 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,814 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 11:51:00,815 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:00,821 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:51:00,840 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:00,844 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:51:00,864 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:00,867 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:51:00,876 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_115100.md
+2025-08-28 11:51:00,888 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:51:00,908 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:51:00,926 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:51:00,944 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:51:00,958 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_115100.md
+2025-08-28 11:51:00,961 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 11:51:00,961 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 11:51:00,977 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:00,977 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 11:51:00,978 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:51:01,008 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:51:01,029 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:51:01,051 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:51:01,069 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:51:01,085 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:51:01,112 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:51:01,137 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:51:01,150 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_115101.md
+2025-08-28 11:51:01,152 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 11:51:01,155 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 11:51:01,182 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,183 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 11:51:01,183 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 11:51:01,218 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 11:51:01,248 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 11:51:01,274 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 11:51:01,303 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 11:51:01,333 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_115101.md
+2025-08-28 11:51:01,335 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 11:51:01,336 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 11:51:01,350 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,351 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 11:51:01,351 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:01,381 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:01,414 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:01,438 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_115101.md
+2025-08-28 11:51:01,443 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 11:51:01,443 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 11:51:01,464 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,465 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 11:51:01,465 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:01,506 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:01,538 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:01,573 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_115101.md
+2025-08-28 11:51:01,577 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 11:51:01,579 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 11:51:01,597 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,598 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 11:51:01,598 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:01,628 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:01,650 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:01,664 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_115101.md
+2025-08-28 11:51:01,666 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 11:51:01,667 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 11:51:01,686 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,686 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 11:51:01,687 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 11:51:01,728 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 11:51:01,757 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 11:51:01,785 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 11:51:01,813 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 11:51:01,846 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_115101.md
+2025-08-28 11:51:01,848 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 11:51:01,849 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 11:51:01,864 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,866 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 11:51:01,866 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:01,905 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:01,946 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:01,968 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_115101.md
+2025-08-28 11:51:01,971 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 11:51:01,972 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 11:51:01,996 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:51:01,997 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 11:51:01,997 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 11:51:02,022 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 11:51:02,048 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 11:51:02,066 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_115102.md
+2025-08-28 11:51:05,484 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 11:51:05] "GET / HTTP/1.1" 200 -
+2025-08-28 11:51:42,083 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 11:51:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-28 11:52:43,739 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-28 11:52:47,525 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-28 11:52:51,174 - advanced_sentiment_engine - INFO - Advanced AI models loaded successfully
+2025-08-28 11:52:51,175 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-28 11:52:51,176 - government_dashboard - INFO - Starting background analysis loop every 300s
+2025-08-28 11:52:51,182 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 11:52:51,187 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 11:52:51,215 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:52:51,216 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 11:52:51,217 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 11:52:51,273 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.116.128.66:5000
+2025-08-28 11:52:51,274 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-28 11:52:53,758 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 11:52:57,037 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 11:53:00,179 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 11:53:03,026 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 11:53:03] "GET / HTTP/1.1" 200 -
+2025-08-28 11:53:03,434 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 11:53:04,143 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 11:53:04] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 11:53:06,721 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 11:53:11,035 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 11:53:16,964 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 11:53:24,207 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 11:53:30,819 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 11:53:37,234 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_115337.md
+2025-08-28 11:53:37,239 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 11:53:37,240 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 11:53:37,276 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:53:37,276 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 11:53:37,277 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:53:40,311 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 11:53:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-08-28 11:53:43,666 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:53:49,971 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:53:56,186 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:54:01,071 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:54:05,352 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 11:54:09,703 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 11:54:14,058 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 11:54:16,180 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_115416.md
+2025-08-28 11:54:16,186 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 11:54:16,187 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 11:54:16,231 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 11:54:16,232 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 11:54:16,232 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 11:54:21,145 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 11:54:25,924 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 11:54:31,255 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 11:54:35,750 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 11:54:39,859 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 13:54:25,765 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 13:54:28,131 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 13:54:28] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 13:54:29,665 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 13:54:30,829 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_135430.md
+2025-08-28 13:54:30,831 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 13:54:30,831 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 13:54:30,844 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:54:30,844 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 13:54:30,844 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 13:54:32,564 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 13:54:34,407 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 13:54:35,947 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 13:54:37,489 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 13:54:39,028 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_135439.md
+2025-08-28 13:54:39,030 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 13:54:39,030 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 13:54:39,051 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:54:39,052 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 13:54:39,052 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:54:40,554 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:54:42,019 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:54:42,811 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_135442.md
+2025-08-28 13:54:42,813 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 13:54:42,814 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 13:54:42,825 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:54:42,826 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 13:54:42,826 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:54:44,334 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:54:45,799 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:54:46,599 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_135446.md
+2025-08-28 13:54:46,600 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 13:54:46,601 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 13:54:46,612 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:54:46,612 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 13:54:46,612 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:54:48,076 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:54:49,459 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:54:50,180 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_135450.md
+2025-08-28 13:54:50,181 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 13:54:50,181 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 13:54:50,193 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:54:50,193 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 13:54:50,193 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 13:54:51,627 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 13:54:52,990 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 13:54:54,358 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 13:54:55,781 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 13:54:57,232 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_135457.md
+2025-08-28 13:54:57,234 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 13:54:57,234 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 13:54:57,246 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:54:57,246 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 13:54:57,246 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:54:58,653 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:55:00,054 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:55:00,781 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_135500.md
+2025-08-28 13:55:00,782 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 13:55:00,782 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 13:55:00,794 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:55:00,794 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 13:55:00,795 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:55:02,185 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:55:03,586 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:55:04,298 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_135504.md
+2025-08-28 13:58:01,939 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 13:58:01] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 13:58:26,638 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 13:58:26,650 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:58:26,650 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 13:58:26,651 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 13:58:28,414 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 13:58:30,170 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 13:58:32,001 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 13:58:33,774 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 13:58:35,695 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 13:58:37,509 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 13:58:39,269 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 13:58:41,463 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 13:58:43,337 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 13:58:45,171 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_135845.md
+2025-08-28 13:58:45,173 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 13:58:45,185 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:58:45,185 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 13:58:45,185 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 13:58:47,089 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 13:58:49,057 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 13:58:50,857 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 13:58:52,679 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 13:58:54,383 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 13:58:56,232 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 13:58:58,087 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 13:58:59,115 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_135859.md
+2025-08-28 13:58:59,117 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 13:58:59,130 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:58:59,130 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 13:58:59,130 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 13:59:00,879 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 13:59:02,625 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 13:59:04,406 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 13:59:06,130 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 13:59:07,952 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 13:59:09,715 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 13:59:13,645 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 13:59:14,506 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_135914.md
+2025-08-28 13:59:14,508 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 13:59:14,520 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:14,521 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 13:59:14,521 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 13:59:16,311 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 13:59:18,051 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 13:59:19,764 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 13:59:20,495 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 13:59:20,509 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:20,510 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 13:59:20,510 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 13:59:21,931 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 13:59:23,005 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 13:59:24,174 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_135924.md
+2025-08-28 13:59:24,176 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 13:59:24,190 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:24,190 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 13:59:24,190 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:59:25,111 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 13:59:26,198 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:59:27,193 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 13:59:28,538 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:59:29,506 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 13:59:29,606 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_135929.md
+2025-08-28 13:59:29,608 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 13:59:29,616 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:29,616 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 13:59:29,616 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:59:31,526 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 13:59:31,641 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:59:33,948 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 13:59:34,066 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:59:35,042 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_135935.md
+2025-08-28 13:59:35,044 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 13:59:35,053 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:35,054 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 13:59:35,054 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:59:36,147 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 13:59:37,486 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:59:38,403 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 13:59:39,601 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:59:40,473 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 13:59:40,595 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_135940.md
+2025-08-28 13:59:40,597 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 13:59:40,606 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:40,607 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 13:59:40,607 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 13:59:42,833 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_135942.md
+2025-08-28 13:59:42,836 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 13:59:42,849 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:42,849 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 13:59:42,849 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 13:59:43,017 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 13:59:45,104 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 13:59:45,242 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 13:59:47,048 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 13:59:47,136 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 13:59:49,117 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 13:59:49,196 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 13:59:51,113 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 13:59:51,211 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_135951.md
+2025-08-28 13:59:51,213 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 13:59:51,222 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:51,223 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 13:59:51,223 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:59:53,140 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 13:59:53,240 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 13:59:55,266 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 13:59:55,343 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 13:59:56,332 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_135956.md
+2025-08-28 13:59:56,334 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 13:59:56,344 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:56,345 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 13:59:56,345 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 13:59:57,252 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 13:59:58,253 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_135958.md
+2025-08-28 13:59:58,255 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 13:59:58,265 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 13:59:58,265 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 13:59:58,265 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 13:59:58,315 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:00:00,257 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:00:00,257 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:00:01,357 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_140001.md
+2025-08-28 14:00:01,360 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:00:01] "POST /api/statewide-scan HTTP/1.1" 200 -
+2025-08-28 14:00:02,108 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:00:03,550 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:00:05,008 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:00:06,400 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:00:06,435 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 14:00:06,435 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 14:00:06,444 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:06,445 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 14:00:06,445 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 14:00:08,467 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:00:08,560 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 14:00:10,695 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:00:10,812 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 14:00:11,739 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_140011.md
+2025-08-28 14:00:11,741 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:00:11,750 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:11,750 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:00:11,751 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:00:13,022 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 14:00:14,070 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:00:15,241 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 14:00:16,159 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:00:17,300 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 14:00:18,295 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:00:19,521 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 14:00:20,400 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:00:21,505 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 14:00:22,419 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_140022.md
+2025-08-28 14:00:22,422 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:00:22,431 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:22,432 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:00:22,432 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:00:23,678 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 14:00:24,667 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:00:26,033 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 14:00:27,147 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:00:28,356 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_140028.md
+2025-08-28 14:00:28,358 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:00:28,368 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:28,369 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:00:28,369 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:00:28,474 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_140028.md
+2025-08-28 14:00:28,476 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 14:00:28,476 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 14:00:28,487 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:28,487 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 14:00:28,487 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:00:30,553 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:00:30,711 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:00:32,725 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:00:32,879 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:00:33,889 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_140033.md
+2025-08-28 14:00:33,893 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:00:33,905 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:33,906 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:00:33,906 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:00:35,345 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:00:36,504 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:00:37,852 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:00:38,856 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:00:39,907 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_140039.md
+2025-08-28 14:00:39,909 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:00:39,919 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:39,920 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:00:39,920 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:00:40,088 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:00:42,180 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:00:42,469 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:00:44,498 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:00:44,758 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:00:45,841 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_140045.md
+2025-08-28 14:00:45,844 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 14:00:45,844 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 14:00:45,855 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:45,855 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 14:00:45,855 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:00:46,645 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:00:47,996 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:00:48,788 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:00:50,096 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:00:51,011 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_140051.md
+2025-08-28 14:00:51,016 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:00:51,033 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:51,035 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:00:51,035 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:00:52,507 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:00:53,387 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:00:54,786 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:00:55,695 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:00:57,045 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_140057.md
+2025-08-28 14:00:57,047 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:00:57,058 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:00:57,059 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:00:57,059 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:00:57,257 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:00:59,822 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:01:00,154 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:01:02,910 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:01:03,219 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:01:04,457 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_140104.md
+2025-08-28 14:01:04,461 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:04] "POST /api/statewide-scan HTTP/1.1" 200 -
+2025-08-28 14:01:04,671 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_140104.md
+2025-08-28 14:01:04,673 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 14:01:04,674 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:01:04,686 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:04,686 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:01:04,686 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:01:06,699 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:01:08,612 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:01:10,373 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:01:12,155 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:01:13,949 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_140113.md
+2025-08-28 14:01:13,951 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 14:01:13,951 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:01:13,964 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:13,964 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:01:13,965 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:01:15,976 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:01:17,653 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:01:18,491 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_140118.md
+2025-08-28 14:01:18,493 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 14:01:18,493 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:01:18,508 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:18,509 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:01:18,509 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:01:20,025 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:01:21,386 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:01:22,039 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_140122.md
+2025-08-28 14:01:22,040 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 14:01:22,040 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:01:22,049 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:22,049 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:01:22,049 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:01:23,407 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:01:24,948 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:01:25,678 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_140125.md
+2025-08-28 14:01:25,679 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 14:01:25,680 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:01:25,688 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:25,689 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:01:25,689 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:01:27,144 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:01:28,546 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:01:29,969 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:01:31,451 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:01:32,865 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_140132.md
+2025-08-28 14:01:32,866 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 14:01:32,866 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:01:32,875 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:32,875 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:01:32,875 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:01:34,427 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:01:36,077 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:01:36,851 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_140136.md
+2025-08-28 14:01:36,852 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 14:01:36,852 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:01:36,864 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:01:36,864 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:01:36,865 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:01:38,300 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:01:39,834 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:01:40,710 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_140140.md
+2025-08-28 14:01:45,770 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:45] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:46,803 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:46] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:47,535 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:47] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:48,226 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:48] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:48,899 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:48] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:49,330 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:49] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:49,519 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:49] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:49,691 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:49] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:49,866 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:49] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:50,092 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:50] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:51,873 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:51] "GET / HTTP/1.1" 200 -
+2025-08-28 14:01:52,129 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:52] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:55,097 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:55] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:01:56,450 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:01:56] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:02:09,262 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:02:09] "GET /api/export-all HTTP/1.1" 200 -
+2025-08-28 14:02:14,947 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:02:14,956 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:02:14,956 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:02:14,957 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:02:16,707 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:02:18,417 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:02:19,310 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_140219.md
+2025-08-28 14:02:19,313 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:02:19] "GET /api/analyze/bilaspur HTTP/1.1" 200 -
+2025-08-28 14:02:23,736 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:02:23] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:02:25,295 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:02:25] "GET /api/report_md/bilaspur HTTP/1.1" 200 -
+2025-08-28 14:06:40,714 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 14:06:40,716 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 14:06:40,728 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:06:40,728 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 14:06:40,728 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 14:06:41,917 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 14:06:43,231 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 14:06:44,499 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 14:06:45,738 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 14:06:46,953 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 14:06:48,193 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 14:06:49,464 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 14:06:50,730 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 14:06:51,970 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 14:06:52,130 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:06:52] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:06:53,361 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_140653.md
+2025-08-28 14:06:53,363 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 14:06:53,363 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 14:06:53,370 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:06:53,370 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 14:06:53,370 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:06:54,585 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:06:55,825 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:06:57,048 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:06:58,258 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:06:59,632 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:07:00,978 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:07:02,305 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:07:02,933 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_140702.md
+2025-08-28 14:07:02,935 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 14:07:02,935 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 14:07:02,944 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:02,944 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 14:07:02,944 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:07:04,268 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:07:05,585 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:07:06,910 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:07:08,216 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:07:09,558 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:07:10,817 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:07:12,050 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:07:12,727 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_140712.md
+2025-08-28 14:07:12,728 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 14:07:12,729 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:07:12,736 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:12,736 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:07:12,737 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:07:14,039 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:07:15,485 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:07:16,856 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:07:18,219 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:07:19,543 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_140719.md
+2025-08-28 14:07:19,545 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 14:07:19,545 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:07:19,553 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:19,554 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:07:19,554 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:07:20,895 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:07:22,261 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:07:22,928 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_140722.md
+2025-08-28 14:07:22,929 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 14:07:22,929 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:07:22,938 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:22,938 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:07:22,938 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:07:24,335 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:07:25,721 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:07:26,373 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_140726.md
+2025-08-28 14:07:26,373 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 14:07:26,373 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:07:26,382 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:26,383 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:07:26,383 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:07:27,695 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:07:29,001 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:07:29,638 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_140729.md
+2025-08-28 14:07:29,640 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 14:07:29,640 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:07:29,648 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:29,649 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:07:29,649 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:07:31,102 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:07:32,584 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:07:33,968 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:07:35,354 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:07:36,735 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_140736.md
+2025-08-28 14:07:36,737 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 14:07:36,737 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:07:36,745 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:36,746 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:07:36,746 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:07:38,157 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:07:39,666 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:07:40,380 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_140740.md
+2025-08-28 14:07:40,382 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 14:07:40,382 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:07:40,390 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:07:40,391 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:07:40,391 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:07:41,788 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:07:43,178 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:07:43,859 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_140743.md
+2025-08-28 14:11:53,078 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:11:53] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:12:43,860 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 14:12:43,861 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 14:12:43,873 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:12:43,873 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 14:12:43,874 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 14:12:45,579 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 14:12:47,261 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 14:12:48,900 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 14:12:50,638 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 14:12:52,325 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 14:12:53,977 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 14:12:55,580 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 14:12:57,228 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 14:12:58,936 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 14:13:00,628 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_141300.md
+2025-08-28 14:13:00,630 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 14:13:00,630 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 14:13:00,642 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:00,642 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 14:13:00,643 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:13:02,404 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:13:04,128 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:13:05,868 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:13:07,734 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:13:09,481 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:13:11,197 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:13:12,798 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:13:13,679 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_141313.md
+2025-08-28 14:13:13,680 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 14:13:13,681 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 14:13:13,691 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:13,691 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 14:13:13,691 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:13:15,429 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:13:17,092 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:13:18,731 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:13:20,411 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:13:22,121 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:13:23,892 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:13:25,571 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:13:26,436 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_141326.md
+2025-08-28 14:13:26,437 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 14:13:26,438 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:13:26,451 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:26,451 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:13:26,451 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:13:28,211 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:13:29,972 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:13:31,699 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:13:33,356 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:13:34,961 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_141334.md
+2025-08-28 14:13:34,963 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 14:13:34,963 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:13:34,975 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:34,975 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:13:34,976 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:13:36,609 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:13:38,365 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:13:39,238 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_141339.md
+2025-08-28 14:13:39,239 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 14:13:39,239 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:13:39,252 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:39,252 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:13:39,253 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:13:41,006 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:13:42,706 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:13:43,575 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_141343.md
+2025-08-28 14:13:43,577 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 14:13:43,577 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:13:43,589 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:43,589 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:13:43,590 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:13:45,392 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:13:47,393 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:13:48,644 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_141348.md
+2025-08-28 14:13:48,647 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 14:13:48,648 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:13:48,857 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:48,858 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:13:48,858 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:13:50,855 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:13:52,622 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:13:54,620 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:13:56,353 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:13:58,146 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_141358.md
+2025-08-28 14:13:58,148 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 14:13:58,148 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:13:58,157 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:13:58,158 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:13:58,158 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:13:59,805 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:14:01,346 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:14:02,095 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_141402.md
+2025-08-28 14:14:02,097 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 14:14:02,097 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:14:02,106 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:14:02,106 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:14:02,107 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:14:03,570 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:14:05,048 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:14:05,759 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_141405.md
+2025-08-28 14:16:53,068 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:16:53] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:19:05,762 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 14:19:05,763 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 14:19:05,773 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:05,773 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 14:19:05,773 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 14:19:06,992 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 14:19:08,195 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 14:19:09,388 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 14:19:10,639 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 14:19:12,059 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 14:19:13,391 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 14:19:14,674 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 14:19:15,986 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 14:19:17,301 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 14:19:18,629 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_141918.md
+2025-08-28 14:19:18,631 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 14:19:18,631 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 14:19:18,638 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:18,639 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 14:19:18,639 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:19:20,039 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:19:21,432 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:19:22,689 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:19:23,945 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:19:25,235 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:19:26,534 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:19:27,990 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:19:28,666 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_141928.md
+2025-08-28 14:19:28,667 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 14:19:28,667 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 14:19:28,675 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:28,676 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 14:19:28,676 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:19:30,110 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:19:31,545 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:19:32,919 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:19:34,275 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:19:35,658 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:19:37,015 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:19:38,385 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:19:39,085 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_141939.md
+2025-08-28 14:19:39,086 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 14:19:39,086 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:19:39,094 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:39,094 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:19:39,094 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:19:40,628 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:19:42,151 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:19:43,726 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:19:45,181 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:19:46,618 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_141946.md
+2025-08-28 14:19:46,620 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 14:19:46,620 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:19:46,628 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:46,628 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:19:46,628 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:19:48,127 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:19:49,571 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:19:50,277 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_141950.md
+2025-08-28 14:19:50,279 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 14:19:50,279 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:19:50,288 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:50,288 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:19:50,288 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:19:51,752 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:19:53,245 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:19:54,104 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_141954.md
+2025-08-28 14:19:54,106 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 14:19:54,106 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:19:54,114 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:54,115 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:19:54,115 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:19:55,538 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:19:56,938 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:19:57,599 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_141957.md
+2025-08-28 14:19:57,601 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 14:19:57,601 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:19:57,609 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:19:57,609 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:19:57,609 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:19:59,056 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:20:00,656 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:20:02,144 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:20:03,603 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:20:05,109 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_142005.md
+2025-08-28 14:20:05,111 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 14:20:05,111 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:20:05,119 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:20:05,120 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:20:05,120 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:20:06,589 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:20:08,096 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:20:08,849 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_142008.md
+2025-08-28 14:20:08,850 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 14:20:08,851 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:20:08,859 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:20:08,860 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:20:08,860 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:20:10,375 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:20:11,772 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:20:12,460 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_142012.md
+2025-08-28 14:21:53,070 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:21:53] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-28 14:24:04,021 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 14:24:04,032 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:24:04,033 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 14:24:04,034 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 14:24:05,823 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 14:24:07,619 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 14:24:09,325 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 14:24:10,979 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 14:24:12,480 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 14:24:13,734 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 14:24:15,060 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 14:24:16,384 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 14:24:17,883 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 14:24:19,456 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_142419.md
+2025-08-28 14:24:19,458 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 14:24:19,465 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:24:19,465 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 14:24:19,466 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:24:20,920 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:24:22,262 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:24:23,826 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:24:25,612 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:24:27,418 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:24:29,228 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:24:31,111 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:24:32,088 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_142432.md
+2025-08-28 14:24:32,090 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 14:24:32,102 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:24:32,102 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 14:24:32,102 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:24:33,887 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:24:35,649 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:24:37,473 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:24:39,291 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:24:41,099 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:24:42,897 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:24:44,685 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:24:45,564 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_142445.md
+2025-08-28 14:24:45,566 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:24:45,580 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:24:45,581 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:24:45,581 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:24:47,483 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:24:49,338 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:24:51,096 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:24:52,842 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:24:54,582 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_142454.md
+2025-08-28 14:24:54,584 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:24:54,597 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:24:54,598 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:24:54,598 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:24:56,401 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:24:58,074 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:24:58,977 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_142458.md
+2025-08-28 14:24:58,979 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:24:58,995 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:24:58,996 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:24:58,996 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:25:00,970 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:25:02,891 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:25:03,890 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_142503.md
+2025-08-28 14:25:03,892 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:25:03,906 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:03,907 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:25:03,907 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:25:05,787 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:25:07,589 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:25:08,584 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_142508.md
+2025-08-28 14:25:08,586 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:25:08,602 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:08,603 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:25:08,603 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:25:10,537 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:25:12,344 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:25:12,428 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:25:12] "GET /api/report_md/bilaspur HTTP/1.1" 200 -
+2025-08-28 14:25:12,463 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-28 14:25:12,463 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-28 14:25:12,480 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:12,480 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-28 14:25:12,480 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-28 14:25:14,741 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:25:14,862 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-28 14:25:16,854 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:25:16,931 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-28 14:25:19,073 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_142519.md
+2025-08-28 14:25:19,076 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:25:19,091 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:19,092 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:25:19,092 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:25:19,127 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-28 14:25:21,369 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-28 14:25:21,369 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:25:23,518 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-28 14:25:23,575 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:25:24,736 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_142524.md
+2025-08-28 14:25:24,739 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:25:24,752 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:24,753 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:25:24,753 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:25:25,815 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-28 14:25:27,021 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:25:28,098 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-28 14:25:29,253 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:25:30,357 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-28 14:25:30,407 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250828_142530.md
+2025-08-28 14:25:30,411 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:25:30] "POST /api/statewide-scan HTTP/1.1" 200 -
+2025-08-28 14:25:32,090 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-28 14:25:33,962 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250828_142533.md
+2025-08-28 14:25:33,965 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-28 14:25:33,965 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-28 14:25:33,978 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:33,978 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-28 14:25:33,978 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:25:36,015 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:25:37,977 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:25:39,643 - werkzeug - INFO - 127.0.0.1 - - [28/Aug/2025 14:25:39] "GET /api/report_md/chamba HTTP/1.1" 200 -
+2025-08-28 14:25:39,854 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:25:41,673 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:25:43,402 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:25:45,146 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:25:46,905 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:25:47,812 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250828_142547.md
+2025-08-28 14:25:47,814 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-28 14:25:47,814 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-28 14:25:47,827 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:25:47,828 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-28 14:25:47,828 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-28 14:25:49,616 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-28 14:25:51,366 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-28 14:25:53,287 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-28 14:25:54,998 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-28 14:25:56,697 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-28 14:25:58,408 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-28 14:26:00,190 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-28 14:26:01,032 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250828_142601.md
+2025-08-28 14:26:01,034 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-28 14:26:01,034 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-28 14:26:01,049 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:01,049 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-28 14:26:01,049 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:26:03,103 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:26:04,796 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:26:06,502 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:26:08,327 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:26:10,292 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250828_142610.md
+2025-08-28 14:26:10,294 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-28 14:26:10,295 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-28 14:26:10,311 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:10,312 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-28 14:26:10,312 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:26:12,120 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:26:13,903 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:26:14,749 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250828_142614.md
+2025-08-28 14:26:14,751 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-28 14:26:14,751 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-28 14:26:14,764 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:14,764 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-28 14:26:14,765 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:26:16,505 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:26:18,185 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:26:19,055 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250828_142619.md
+2025-08-28 14:26:19,056 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-28 14:26:19,056 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-28 14:26:19,069 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:19,069 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-28 14:26:19,069 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:26:20,791 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:26:22,431 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:26:23,296 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250828_142623.md
+2025-08-28 14:26:23,298 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-28 14:26:23,298 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-28 14:26:23,311 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:23,312 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-28 14:26:23,312 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-28 14:26:25,246 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-28 14:26:27,036 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-28 14:26:28,737 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-28 14:26:30,411 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-28 14:26:32,165 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250828_142632.md
+2025-08-28 14:26:32,167 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-28 14:26:32,167 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-28 14:26:32,180 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:32,181 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-28 14:26:32,181 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:26:33,944 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-28 14:26:35,930 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-28 14:26:37,537 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250828_142637.md
+2025-08-28 14:26:37,539 - government_dashboard - INFO - Background analysis: running for una
+2025-08-28 14:26:37,539 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-28 14:26:37,552 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-28 14:26:37,552 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-28 14:26:37,552 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-28 14:26:39,505 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:23:53,884 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-29 17:24:05,733 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-29 17:24:08,720 - advanced_sentiment_engine - INFO - Advanced AI models loaded successfully
+2025-08-29 17:24:08,721 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-29 17:24:08,721 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-29 17:24:08,742 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:24:08,742 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-29 17:24:08,742 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-29 17:24:10,249 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-29 17:24:11,285 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-29 17:24:12,349 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-29 17:24:13,407 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-29 17:24:14,584 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-29 17:24:15,748 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-29 17:24:16,904 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-29 17:24:18,004 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-29 17:24:19,101 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-29 17:24:20,182 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250829_172420.md
+2025-08-29 17:24:20,183 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-29 17:24:20,189 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:24:20,189 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-29 17:24:20,189 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:24:21,253 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:24:22,412 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:24:23,443 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:24:24,463 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:24:25,485 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:24:26,505 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:24:27,524 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:24:28,040 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250829_172428.md
+2025-08-29 17:24:28,041 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-29 17:24:28,047 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:24:28,047 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-29 17:24:28,047 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:24:29,108 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:24:30,213 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:24:31,231 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:24:32,254 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:24:33,276 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:24:34,295 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:24:35,299 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:24:35,818 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250829_172435.md
+2025-08-29 17:24:35,819 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-29 17:24:35,825 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:24:35,825 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-29 17:24:35,826 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:24:36,983 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:24:38,156 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:24:39,210 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:24:40,284 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:24:41,360 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250829_172441.md
+2025-08-29 17:24:41,361 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-29 17:24:41,368 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:24:41,368 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-29 17:24:41,368 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:24:42,441 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:24:43,602 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:24:44,117 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250829_172444.md
+2025-08-29 17:24:48,656 - advanced_sentiment_engine - INFO - Database connected successfully
+2025-08-29 17:24:50,468 - advanced_sentiment_engine - INFO - Loading advanced AI models...
+2025-08-29 17:24:53,168 - advanced_sentiment_engine - INFO - Advanced AI models loaded successfully
+2025-08-29 17:24:53,169 - advanced_sentiment_engine - INFO - HP Artisan Intelligence System initialized in simulation mode
+2025-08-29 17:24:53,169 - government_dashboard - INFO - Starting background analysis loop every 300s
+2025-08-29 17:24:53,171 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-29 17:24:53,171 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-29 17:24:53,179 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:24:53,180 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-29 17:24:53,180 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-29 17:24:53,204 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.116.128.66:5000
+2025-08-29 17:24:53,205 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-08-29 17:24:54,310 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-29 17:24:55,338 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-29 17:24:56,365 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-29 17:24:57,380 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-29 17:24:58,403 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-29 17:24:59,518 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-29 17:25:00,557 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-29 17:25:01,664 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-29 17:25:02,206 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:25:02] "GET / HTTP/1.1" 200 -
+2025-08-29 17:25:03,159 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-29 17:25:03,902 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:25:03] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-29 17:25:03,982 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:25:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-08-29 17:25:04,393 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250829_172504.md
+2025-08-29 17:25:04,402 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-29 17:25:04,403 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-29 17:25:04,409 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:04,409 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-29 17:25:04,410 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:25:05,523 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:25:06,784 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:25:08,298 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:25:09,879 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:25:11,421 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:25:13,012 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:25:14,631 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:25:15,416 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250829_172515.md
+2025-08-29 17:25:15,417 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-29 17:25:15,418 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-29 17:25:15,430 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:15,430 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-29 17:25:15,430 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:25:17,019 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:25:18,610 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:25:20,145 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:25:21,690 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:25:23,272 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:25:24,789 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:25:26,318 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:25:27,076 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250829_172527.md
+2025-08-29 17:25:27,079 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-29 17:25:27,079 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-29 17:25:27,091 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:27,091 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-29 17:25:27,092 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:25:28,686 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:25:30,255 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:25:31,799 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:25:33,332 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:25:34,848 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250829_172534.md
+2025-08-29 17:25:34,850 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-29 17:25:34,850 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-29 17:25:34,863 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:34,863 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-29 17:25:34,863 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:25:36,388 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:25:37,871 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:25:38,607 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250829_172538.md
+2025-08-29 17:25:38,609 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-29 17:25:38,609 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-29 17:25:38,621 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:38,621 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-29 17:25:38,622 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:25:40,142 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:25:41,633 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:25:42,383 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250829_172542.md
+2025-08-29 17:25:42,385 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-29 17:25:42,385 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-29 17:25:42,397 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:42,398 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-29 17:25:42,398 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:25:43,966 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:25:45,445 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:25:46,165 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250829_172546.md
+2025-08-29 17:25:46,167 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-29 17:25:46,167 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-29 17:25:46,179 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:46,179 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-29 17:25:46,179 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:25:47,688 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:25:49,166 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:25:50,613 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:25:52,079 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:25:53,526 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250829_172553.md
+2025-08-29 17:25:53,528 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-29 17:25:53,528 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-29 17:25:53,540 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:53,541 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-29 17:25:53,541 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:25:55,032 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:25:56,486 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:25:57,212 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250829_172557.md
+2025-08-29 17:25:57,213 - government_dashboard - INFO - Background analysis: running for una
+2025-08-29 17:25:57,213 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-29 17:25:57,225 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:25:57,225 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-29 17:25:57,225 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:25:58,727 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:26:00,267 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:26:01,034 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250829_172601.md
+2025-08-29 17:30:03,898 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:30:03] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-29 17:30:47,447 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-29 17:30:47,461 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:30:47,462 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-29 17:30:47,462 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-29 17:30:49,051 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-29 17:30:50,702 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-29 17:30:52,320 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-29 17:30:53,818 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-29 17:30:55,049 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-29 17:30:56,158 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-29 17:30:57,272 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-29 17:30:58,408 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-29 17:30:59,675 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-29 17:31:00,861 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250829_173100.md
+2025-08-29 17:31:00,862 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-29 17:31:00,870 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:00,870 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-29 17:31:00,870 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:31:01,036 - government_dashboard - INFO - Background analysis: running for kangra
+2025-08-29 17:31:01,036 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-29 17:31:01,045 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:01,045 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-29 17:31:01,046 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-29 17:31:02,664 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:31:03,020 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-29 17:31:04,595 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:31:04,848 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-29 17:31:06,290 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:31:06,559 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-29 17:31:08,007 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:31:08,235 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-29 17:31:09,691 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:31:09,973 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-29 17:31:11,444 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:31:11,732 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-29 17:31:13,158 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:31:13,449 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-29 17:31:14,011 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250829_173114.md
+2025-08-29 17:31:14,013 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-29 17:31:14,027 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:14,027 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-29 17:31:14,028 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:31:15,165 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-29 17:31:15,769 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:31:16,896 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-29 17:31:17,475 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:31:18,699 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250829_173118.md
+2025-08-29 17:31:18,702 - government_dashboard - INFO - Background analysis: running for chamba
+2025-08-29 17:31:18,703 - advanced_sentiment_engine - INFO - Starting analysis for chamba
+2025-08-29 17:31:18,718 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:18,718 - advanced_sentiment_engine - INFO - Analyzing 150 posts for chamba
+2025-08-29 17:31:18,718 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:31:19,313 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:31:20,502 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:31:21,096 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:31:22,303 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:31:22,918 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:31:24,088 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:31:24,692 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:31:25,800 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:31:26,380 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:31:27,221 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250829_173127.md
+2025-08-29 17:31:27,224 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-29 17:31:27,375 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:27,375 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-29 17:31:27,376 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:31:27,624 - advanced_sentiment_engine - INFO - Starting analysis for kangra
+2025-08-29 17:31:27,637 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:27,638 - advanced_sentiment_engine - INFO - Analyzing 200 posts for kangra
+2025-08-29 17:31:27,638 - advanced_sentiment_engine - INFO - Processed 0/200 posts
+2025-08-29 17:31:27,741 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:31:29,588 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:31:29,847 - advanced_sentiment_engine - INFO - Processed 20/200 posts
+2025-08-29 17:31:29,933 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:31:31,942 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:31:32,207 - advanced_sentiment_engine - INFO - Processed 40/200 posts
+2025-08-29 17:31:32,267 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:31:33,079 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:31:33] "GET /api/report_md/kangra HTTP/1.1" 200 -
+2025-08-29 17:31:33,444 - advanced_sentiment_engine - INFO - Analysis completed for chamba. Report saved as reports/HP_Artisan_Report_chamba_20250829_173133.md
+2025-08-29 17:31:33,447 - government_dashboard - INFO - Background analysis: running for solan
+2025-08-29 17:31:33,447 - advanced_sentiment_engine - INFO - Starting analysis for solan
+2025-08-29 17:31:33,460 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:33,461 - advanced_sentiment_engine - INFO - Analyzing 150 posts for solan
+2025-08-29 17:31:33,461 - advanced_sentiment_engine - INFO - Processed 0/150 posts
+2025-08-29 17:31:34,326 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:31:34,623 - advanced_sentiment_engine - INFO - Processed 60/200 posts
+2025-08-29 17:31:35,834 - advanced_sentiment_engine - INFO - Processed 20/150 posts
+2025-08-29 17:31:36,609 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:31:36,920 - advanced_sentiment_engine - INFO - Processed 80/200 posts
+2025-08-29 17:31:38,045 - advanced_sentiment_engine - INFO - Processed 40/150 posts
+2025-08-29 17:31:38,797 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250829_173138.md
+2025-08-29 17:31:38,800 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-29 17:31:38,813 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:38,814 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-29 17:31:38,814 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:31:39,137 - advanced_sentiment_engine - INFO - Processed 100/200 posts
+2025-08-29 17:31:40,336 - advanced_sentiment_engine - INFO - Processed 60/150 posts
+2025-08-29 17:31:41,150 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:31:41,535 - advanced_sentiment_engine - INFO - Processed 120/200 posts
+2025-08-29 17:31:42,636 - advanced_sentiment_engine - INFO - Processed 80/150 posts
+2025-08-29 17:31:43,411 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:31:43,819 - advanced_sentiment_engine - INFO - Processed 140/200 posts
+2025-08-29 17:31:44,566 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250829_173144.md
+2025-08-29 17:31:44,569 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-29 17:31:44,585 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:44,586 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-29 17:31:44,586 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:31:44,909 - advanced_sentiment_engine - INFO - Processed 100/150 posts
+2025-08-29 17:31:46,195 - advanced_sentiment_engine - INFO - Processed 160/200 posts
+2025-08-29 17:31:46,976 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:31:47,354 - advanced_sentiment_engine - INFO - Processed 120/150 posts
+2025-08-29 17:31:48,581 - advanced_sentiment_engine - INFO - Processed 180/200 posts
+2025-08-29 17:31:49,311 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:31:49,671 - advanced_sentiment_engine - INFO - Processed 140/150 posts
+2025-08-29 17:31:50,452 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250829_173150.md
+2025-08-29 17:31:50,455 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-29 17:31:50,467 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:50,467 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-29 17:31:50,467 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:31:50,802 - advanced_sentiment_engine - INFO - Analysis completed for solan. Report saved as reports/HP_Artisan_Report_solan_20250829_173150.md
+2025-08-29 17:31:50,805 - government_dashboard - INFO - Background analysis: running for mandi
+2025-08-29 17:31:50,805 - advanced_sentiment_engine - INFO - Starting analysis for mandi
+2025-08-29 17:31:50,819 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:50,819 - advanced_sentiment_engine - INFO - Analyzing 100 posts for mandi
+2025-08-29 17:31:50,820 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:31:50,884 - advanced_sentiment_engine - INFO - Analysis completed for kangra. Report saved as reports/HP_Artisan_Report_kangra_20250829_173150.md
+2025-08-29 17:31:50,888 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:31:50] "GET /api/analyze/kangra HTTP/1.1" 200 -
+2025-08-29 17:31:52,423 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:31:52,675 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:31:52,780 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:31:52] "GET /api/realtime-monitoring HTTP/1.1" 200 -
+2025-08-29 17:31:54,110 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:31:54,394 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:31:54,989 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250829_173154.md
+2025-08-29 17:31:54,991 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-29 17:31:55,005 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:55,005 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-29 17:31:55,006 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:31:56,220 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:31:56,829 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:31:58,091 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:31:58,698 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:31:59,807 - advanced_sentiment_engine - INFO - Analysis completed for mandi. Report saved as reports/HP_Artisan_Report_mandi_20250829_173159.md
+2025-08-29 17:31:59,809 - government_dashboard - INFO - Background analysis: running for bilaspur
+2025-08-29 17:31:59,810 - advanced_sentiment_engine - INFO - Starting analysis for bilaspur
+2025-08-29 17:31:59,823 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:31:59,823 - advanced_sentiment_engine - INFO - Analyzing 50 posts for bilaspur
+2025-08-29 17:31:59,823 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:00,444 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:32:01,584 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:02,230 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:32:03,338 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:04,057 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250829_173204.md
+2025-08-29 17:32:04,060 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-29 17:32:04,075 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:04,075 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-29 17:32:04,075 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:04,245 - advanced_sentiment_engine - INFO - Analysis completed for bilaspur. Report saved as reports/HP_Artisan_Report_bilaspur_20250829_173204.md
+2025-08-29 17:32:04,247 - government_dashboard - INFO - Background analysis: running for sirmaur
+2025-08-29 17:32:04,248 - advanced_sentiment_engine - INFO - Starting analysis for sirmaur
+2025-08-29 17:32:04,261 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:04,262 - advanced_sentiment_engine - INFO - Analyzing 50 posts for sirmaur
+2025-08-29 17:32:04,262 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:05,952 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:06,119 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:07,834 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:07,998 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:09,058 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250829_173209.md
+2025-08-29 17:32:09,061 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-29 17:32:09,075 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:09,075 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-29 17:32:09,077 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:09,149 - advanced_sentiment_engine - INFO - Analysis completed for sirmaur. Report saved as reports/HP_Artisan_Report_sirmaur_20250829_173209.md
+2025-08-29 17:32:09,151 - government_dashboard - INFO - Background analysis: running for shimla
+2025-08-29 17:32:09,152 - advanced_sentiment_engine - INFO - Starting analysis for shimla
+2025-08-29 17:32:09,166 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:09,168 - advanced_sentiment_engine - INFO - Analyzing 50 posts for shimla
+2025-08-29 17:32:09,169 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:11,363 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:11,431 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:12,543 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:32:12] "GET /api/export-all HTTP/1.1" 200 -
+2025-08-29 17:32:13,551 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:13,599 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:14,441 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250829_173214.md
+2025-08-29 17:32:14,444 - werkzeug - INFO - 127.0.0.1 - - [29/Aug/2025 17:32:14] "POST /api/statewide-scan HTTP/1.1" 200 -
+2025-08-29 17:32:14,478 - advanced_sentiment_engine - INFO - Analysis completed for shimla. Report saved as reports/HP_Artisan_Report_shimla_20250829_173214.md
+2025-08-29 17:32:14,480 - government_dashboard - INFO - Background analysis: running for kinnaur
+2025-08-29 17:32:14,481 - advanced_sentiment_engine - INFO - Starting analysis for kinnaur
+2025-08-29 17:32:14,493 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:14,494 - advanced_sentiment_engine - INFO - Analyzing 100 posts for kinnaur
+2025-08-29 17:32:14,494 - advanced_sentiment_engine - INFO - Processed 0/100 posts
+2025-08-29 17:32:16,355 - advanced_sentiment_engine - INFO - Processed 20/100 posts
+2025-08-29 17:32:17,889 - advanced_sentiment_engine - INFO - Processed 40/100 posts
+2025-08-29 17:32:19,443 - advanced_sentiment_engine - INFO - Processed 60/100 posts
+2025-08-29 17:32:20,980 - advanced_sentiment_engine - INFO - Processed 80/100 posts
+2025-08-29 17:32:22,504 - advanced_sentiment_engine - INFO - Analysis completed for kinnaur. Report saved as reports/HP_Artisan_Report_kinnaur_20250829_173222.md
+2025-08-29 17:32:22,506 - government_dashboard - INFO - Background analysis: running for lahaul_spiti
+2025-08-29 17:32:22,506 - advanced_sentiment_engine - INFO - Starting analysis for lahaul_spiti
+2025-08-29 17:32:22,519 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:22,519 - advanced_sentiment_engine - INFO - Analyzing 50 posts for lahaul_spiti
+2025-08-29 17:32:22,519 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:24,033 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:25,472 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:26,249 - advanced_sentiment_engine - INFO - Analysis completed for lahaul_spiti. Report saved as reports/HP_Artisan_Report_lahaul_spiti_20250829_173226.md
+2025-08-29 17:32:26,251 - government_dashboard - INFO - Background analysis: running for una
+2025-08-29 17:32:26,251 - advanced_sentiment_engine - INFO - Starting analysis for una
+2025-08-29 17:32:26,266 - advanced_sentiment_engine - INFO - Loaded simulated data from data/simulated_posts.json
+2025-08-29 17:32:26,266 - advanced_sentiment_engine - INFO - Analyzing 50 posts for una
+2025-08-29 17:32:26,266 - advanced_sentiment_engine - INFO - Processed 0/50 posts
+2025-08-29 17:32:27,730 - advanced_sentiment_engine - INFO - Processed 20/50 posts
+2025-08-29 17:32:29,227 - advanced_sentiment_engine - INFO - Processed 40/50 posts
+2025-08-29 17:32:29,918 - advanced_sentiment_engine - INFO - Analysis completed for una. Report saved as reports/HP_Artisan_Report_una_20250829_173229.md

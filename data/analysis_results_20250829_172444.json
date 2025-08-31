@@ -1,0 +1,381 @@
+{
+  "kangra": {
+    "district": "kangra",
+    "analysis_results": {
+      "district": "kangra",
+      "analysis_timestamp": "2025-08-29 17:24:20.181279",
+      "total_posts": 200,
+      "overall_sentiment": 0.36998373343972674,
+      "overall_confidence": 0.5026865289155742,
+      "category_analysis": {
+        "miniature_painting": {
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5382754831201579,
+          "confidence": 74.84156077480066,
+          "avg_sentiment": 0.3710390193700163,
+          "total_posts": 50,
+          "avg_engagement": 53.38,
+          "trend": "STABLE"
+        },
+        "metal_craft": {
+          "demand_level": "LOW",
+          "demand_score": 0.5273026772707796,
+          "confidence": 73.68303181682224,
+          "avg_sentiment": 0.34207579542055583,
+          "total_posts": 50,
+          "avg_engagement": 54.34,
+          "trend": "STABLE"
+        },
+        "jewelry": {
+          "demand_level": "HIGH",
+          "demand_score": 0.5478241561803778,
+          "confidence": 75.61947697368764,
+          "avg_sentiment": 0.3904869243421911,
+          "total_posts": 50,
+          "avg_engagement": 56.2,
+          "trend": "STABLE"
+        },
+        "stone_carving": {
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5424551451046418,
+          "confidence": 75.05332778504575,
+          "avg_sentiment": 0.37633319462614373,
+          "total_posts": 50,
+          "avg_engagement": 56.68,
+          "trend": "STABLE"
+        }
+      },
+      "top_performing_categories": [
+        {
+          "category": "jewelry",
+          "demand_level": "HIGH",
+          "demand_score": 0.5478241561803778
+        },
+        {
+          "category": "stone_carving",
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5424551451046418
+        },
+        {
+          "category": "miniature_painting",
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5382754831201579
+        },
+        {
+          "category": "metal_craft",
+          "demand_level": "LOW",
+          "demand_score": 0.5273026772707796
+        }
+      ],
+      "engagement_metrics": {
+        "total_engagement": 11030,
+        "avg_engagement_per_post": 55.15,
+        "engagement_breakdown": {
+          "likes": 8299,
+          "shares": 1447,
+          "comments": 1284
+        }
+      },
+      "insights": [
+        "HIGH PRIORITY: 1 artisan categories showing high demand: jewelry",
+        "RECOMMENDATION: Scale up training programs and raw material support for high-demand categories",
+        "Strong social media engagement indicates high public interest in HP artisan products",
+        "Positive public sentiment - favorable conditions for market expansion"
+      ],
+      "recommendations": [
+        "MARKETING: Boost promotion efforts for metal_craft",
+        "IMMEDIATE ACTION: Increase production capacity support for jewelry",
+        "FUNDING: Prioritize jewelry artisans for skill development programs",
+        "DIGITAL PLATFORM: Develop comprehensive e-commerce portal for HP artisan products",
+        "TRAINING: Implement social media marketing training for artisan groups",
+        "MONITORING: Continue monthly demand analysis for trend tracking"
+      ]
+    },
+    "report_file": "reports/HP_Artisan_Report_kangra_20250829_172420.md",
+    "status": "completed",
+    "timestamp": "2025-08-29 17:24:20.182264"
+  },
+  "chamba": {
+    "district": "chamba",
+    "analysis_results": {
+      "district": "chamba",
+      "analysis_timestamp": "2025-08-29 17:24:28.039241",
+      "total_posts": 150,
+      "overall_sentiment": 0.3262273581759537,
+      "overall_confidence": 0.47992020110052164,
+      "category_analysis": {
+        "chamba_rumal": {
+          "demand_level": "LOW",
+          "demand_score": 0.5065448324290548,
+          "confidence": 71.73214563202396,
+          "avg_sentiment": 0.2933036408005989,
+          "total_posts": 50,
+          "avg_engagement": 52.4,
+          "trend": "STABLE"
+        },
+        "metal_craft": {
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5216187664250834,
+          "confidence": 73.55912647381864,
+          "avg_sentiment": 0.33897816184546586,
+          "total_posts": 50,
+          "avg_engagement": 47.74,
+          "trend": "STABLE"
+        },
+        "jewelry": {
+          "demand_level": "HIGH",
+          "demand_score": 0.5268132309709297,
+          "confidence": 73.85601087527186,
+          "avg_sentiment": 0.3464002718817964,
+          "total_posts": 50,
+          "avg_engagement": 50.94,
+          "trend": "STABLE"
+        }
+      },
+      "top_performing_categories": [
+        {
+          "category": "jewelry",
+          "demand_level": "HIGH",
+          "demand_score": 0.5268132309709297
+        },
+        {
+          "category": "metal_craft",
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5216187664250834
+        },
+        {
+          "category": "chamba_rumal",
+          "demand_level": "LOW",
+          "demand_score": 0.5065448324290548
+        }
+      ],
+      "engagement_metrics": {
+        "total_engagement": 7554,
+        "avg_engagement_per_post": 50.36,
+        "engagement_breakdown": {
+          "likes": 5602,
+          "shares": 1046,
+          "comments": 906
+        }
+      },
+      "insights": [
+        "HIGH PRIORITY: 1 artisan categories showing high demand: jewelry",
+        "RECOMMENDATION: Scale up training programs and raw material support for high-demand categories",
+        "Strong social media engagement indicates high public interest in HP artisan products",
+        "Positive public sentiment - favorable conditions for market expansion"
+      ],
+      "recommendations": [
+        "MARKETING: Boost promotion efforts for chamba_rumal",
+        "IMMEDIATE ACTION: Increase production capacity support for jewelry",
+        "FUNDING: Prioritize jewelry artisans for skill development programs",
+        "DIGITAL PLATFORM: Develop comprehensive e-commerce portal for HP artisan products",
+        "TRAINING: Implement social media marketing training for artisan groups",
+        "MONITORING: Continue monthly demand analysis for trend tracking"
+      ]
+    },
+    "report_file": "reports/HP_Artisan_Report_chamba_20250829_172428.md",
+    "status": "completed",
+    "timestamp": "2025-08-29 17:24:28.040049"
+  },
+  "solan": {
+    "district": "solan",
+    "analysis_results": {
+      "district": "solan",
+      "analysis_timestamp": "2025-08-29 17:24:35.816845",
+      "total_posts": 150,
+      "overall_sentiment": 0.3189945047140036,
+      "overall_confidence": 0.49771638260356593,
+      "category_analysis": {
+        "metal_craft": {
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5113592185297973,
+          "confidence": 72.38966283601187,
+          "avg_sentiment": 0.30974157090029664,
+          "total_posts": 50,
+          "avg_engagement": 49.78,
+          "trend": "STABLE"
+        },
+        "jewelry": {
+          "demand_level": "HIGH",
+          "demand_score": 0.5465580685044583,
+          "confidence": 75.47334235350107,
+          "avg_sentiment": 0.3868335588375265,
+          "total_posts": 50,
+          "avg_engagement": 56.52,
+          "trend": "STABLE"
+        },
+        "stone_carving": {
+          "demand_level": "LOW",
+          "demand_score": 0.4934260336365522,
+          "confidence": 70.41633537616751,
+          "avg_sentiment": 0.26040838440418784,
+          "total_posts": 50,
+          "avg_engagement": 52.46,
+          "trend": "STABLE"
+        }
+      },
+      "top_performing_categories": [
+        {
+          "category": "jewelry",
+          "demand_level": "HIGH",
+          "demand_score": 0.5465580685044583
+        },
+        {
+          "category": "metal_craft",
+          "demand_level": "MEDIUM",
+          "demand_score": 0.5113592185297973
+        },
+        {
+          "category": "stone_carving",
+          "demand_level": "LOW",
+          "demand_score": 0.4934260336365522
+        }
+      ],
+      "engagement_metrics": {
+        "total_engagement": 7938,
+        "avg_engagement_per_post": 52.92,
+        "engagement_breakdown": {
+          "likes": 5918,
+          "shares": 1116,
+          "comments": 904
+        }
+      },
+      "insights": [
+        "HIGH PRIORITY: 1 artisan categories showing high demand: jewelry",
+        "RECOMMENDATION: Scale up training programs and raw material support for high-demand categories",
+        "Strong social media engagement indicates high public interest in HP artisan products",
+        "Positive public sentiment - favorable conditions for market expansion"
+      ],
+      "recommendations": [
+        "IMMEDIATE ACTION: Increase production capacity support for jewelry",
+        "FUNDING: Prioritize jewelry artisans for skill development programs",
+        "MARKETING: Boost promotion efforts for stone_carving",
+        "DIGITAL PLATFORM: Develop comprehensive e-commerce portal for HP artisan products",
+        "TRAINING: Implement social media marketing training for artisan groups",
+        "MONITORING: Continue monthly demand analysis for trend tracking"
+      ]
+    },
+    "report_file": "reports/HP_Artisan_Report_solan_20250829_172435.md",
+    "status": "completed",
+    "timestamp": "2025-08-29 17:24:35.818507"
+  },
+  "mandi": {
+    "district": "mandi",
+    "analysis_results": {
+      "district": "mandi",
+      "analysis_timestamp": "2025-08-29 17:24:41.359531",
+      "total_posts": 100,
+      "overall_sentiment": 0.273553727546145,
+      "overall_confidence": 0.4817503853164514,
+      "category_analysis": {
+        "jewelry": {
+          "demand_level": "LOW",
+          "demand_score": 0.49171131358358766,
+          "confidence": 70.66595355790515,
+          "avg_sentiment": 0.26664883894762886,
+          "total_posts": 50,
+          "avg_engagement": 46.4,
+          "trend": "STABLE"
+        },
+        "stone_carving": {
+          "demand_level": "HIGH",
+          "demand_score": 0.5002338262671099,
+          "confidence": 71.21834464578644,
+          "avg_sentiment": 0.280458616144661,
+          "total_posts": 50,
+          "avg_engagement": 50.64,
+          "trend": "STABLE"
+        }
+      },
+      "top_performing_categories": [
+        {
+          "category": "stone_carving",
+          "demand_level": "HIGH",
+          "demand_score": 0.5002338262671099
+        },
+        {
+          "category": "jewelry",
+          "demand_level": "LOW",
+          "demand_score": 0.49171131358358766
+        }
+      ],
+      "engagement_metrics": {
+        "total_engagement": 4852,
+        "avg_engagement_per_post": 48.52,
+        "engagement_breakdown": {
+          "likes": 3580,
+          "shares": 740,
+          "comments": 532
+        }
+      },
+      "insights": [
+        "HIGH PRIORITY: 1 artisan categories showing high demand: stone_carving",
+        "RECOMMENDATION: Scale up training programs and raw material support for high-demand categories"
+      ],
+      "recommendations": [
+        "MARKETING: Boost promotion efforts for jewelry",
+        "IMMEDIATE ACTION: Increase production capacity support for stone_carving",
+        "FUNDING: Prioritize stone_carving artisans for skill development programs",
+        "DIGITAL PLATFORM: Develop comprehensive e-commerce portal for HP artisan products",
+        "TRAINING: Implement social media marketing training for artisan groups",
+        "MONITORING: Continue monthly demand analysis for trend tracking"
+      ]
+    },
+    "report_file": "reports/HP_Artisan_Report_mandi_20250829_172441.md",
+    "status": "completed",
+    "timestamp": "2025-08-29 17:24:41.360549"
+  },
+  "bilaspur": {
+    "district": "bilaspur",
+    "analysis_results": {
+      "district": "bilaspur",
+      "analysis_timestamp": "2025-08-29 17:24:44.117207",
+      "total_posts": 50,
+      "overall_sentiment": 0.43527792068404053,
+      "overall_confidence": 0.5300317630871931,
+      "category_analysis": {
+        "stone_carving": {
+          "demand_level": "HIGH",
+          "demand_score": 0.5653838480625476,
+          "confidence": 77.41111682736162,
+          "avg_sentiment": 0.43527792068404053,
+          "total_posts": 50,
+          "avg_engagement": 55.62,
+          "trend": "STABLE"
+        }
+      },
+      "top_performing_categories": [
+        {
+          "category": "stone_carving",
+          "demand_level": "HIGH",
+          "demand_score": 0.5653838480625476
+        }
+      ],
+      "engagement_metrics": {
+        "total_engagement": 2781,
+        "avg_engagement_per_post": 55.62,
+        "engagement_breakdown": {
+          "likes": 2017,
+          "shares": 446,
+          "comments": 318
+        }
+      },
+      "insights": [
+        "HIGH PRIORITY: 1 artisan categories showing high demand: stone_carving",
+        "RECOMMENDATION: Scale up training programs and raw material support for high-demand categories",
+        "Strong social media engagement indicates high public interest in HP artisan products",
+        "Positive public sentiment - favorable conditions for market expansion"
+      ],
+      "recommendations": [
+        "IMMEDIATE ACTION: Increase production capacity support for stone_carving",
+        "FUNDING: Prioritize stone_carving artisans for skill development programs",
+        "DIGITAL PLATFORM: Develop comprehensive e-commerce portal for HP artisan products",
+        "TRAINING: Implement social media marketing training for artisan groups",
+        "MONITORING: Continue monthly demand analysis for trend tracking"
+      ]
+    },
+    "report_file": "reports/HP_Artisan_Report_bilaspur_20250829_172444.md",
+    "status": "completed",
+    "timestamp": "2025-08-29 17:24:44.117207"
+  }
+}

@@ -15,13 +15,16 @@
 **Accuracy:** 85-92% using ensemble AI models
 
 ### Problem Statement
+
 Artisans in Himachal Pradesh lack real-time insights into market demand trends, leading to:
+
 - Production misalignment with market needs
 - Missed opportunities during peak demand periods
 - Inefficient resource allocation
 - Limited market reach and growth
 
 ### Solution
+
 Government-grade AI system that analyzes social media sentiment and predicts demand trends for artisan products across all HP districts, providing actionable insights for policy decisions and market development.
 
 ## ⚠️ **IMPORTANT: Twitter API Requirements**
@@ -30,17 +33,18 @@ Government-grade AI system that analyzes social media sentiment and predicts dem
 
 **✅ YES** - The project will run with limitations:
 
-| Feature | Without Twitter API | With Twitter API |
-|---------|-------------------|------------------|
-| **Web Dashboard** | ✅ Fully Functional | ✅ Fully Functional |
-| **AI Analysis Engine** | ✅ Works with simulated data | ✅ Works with real data |
-| **Database Storage** | ✅ Fully Functional | ✅ Fully Functional |
-| **Report Generation** | ✅ Generates reports from simulated data | ✅ Generates reports from real data |
-| **Government Interface** | ✅ Fully Functional | ✅ Fully Functional |
-| **Real-time Data Collection** | ❌ Uses simulated posts | ✅ Live social media data |
-| **Location-based Filtering** | ❌ Simulated locations | ✅ Real HP geographic data |
+| Feature                       | Without Twitter API                      | With Twitter API                    |
+| ----------------------------- | ---------------------------------------- | ----------------------------------- |
+| **Web Dashboard**             | ✅ Fully Functional                      | ✅ Fully Functional                 |
+| **AI Analysis Engine**        | ✅ Works with simulated data             | ✅ Works with real data             |
+| **Database Storage**          | ✅ Fully Functional                      | ✅ Fully Functional                 |
+| **Report Generation**         | ✅ Generates reports from simulated data | ✅ Generates reports from real data |
+| **Government Interface**      | ✅ Fully Functional                      | ✅ Fully Functional                 |
+| **Real-time Data Collection** | ❌ Uses simulated posts                  | ✅ Live social media data           |
+| **Location-based Filtering**  | ❌ Simulated locations                   | ✅ Real HP geographic data          |
 
 ### **Alternative Data Sources (No API Required)**
+
 ```python
 # The system includes these fallback options:
 1. Simulated social media posts (included)
@@ -89,6 +93,7 @@ hp-artisan-intelligence/
 ## 🚀 Quick Start (No Twitter API Required)
 
 ### Step 1: Environment Setup
+
 ```bash
 # Clone repository
 git clone https://github.com/your-org/hp-artisan-intelligence.git
@@ -103,6 +108,7 @@ pip install -r requirements.txt
 ```
 
 ### Step 2: Database Setup
+
 ```bash
 # Start MongoDB (if not running)
 mongod
@@ -112,6 +118,7 @@ python scripts/setup_database.py
 ```
 
 ### Step 3: Run Without Twitter API
+
 ```bash
 # Generate simulated data
 python data_simulator.py
@@ -128,6 +135,7 @@ python government_dashboard.py
 ## 📦 Dependencies
 
 ### Core Requirements (`requirements.txt`)
+
 ```txt
 # AI/ML Libraries
 pandas>=1.3.0
@@ -161,6 +169,7 @@ schedule>=1.1.0
 ```
 
 ### Optional Requirements (for real Twitter data)
+
 ```txt
 tweepy>=4.12.0  # Only needed with Twitter API access
 ```
@@ -168,6 +177,7 @@ tweepy>=4.12.0  # Only needed with Twitter API access
 ## ⚙️ Configuration
 
 ### Environment Variables (`.env`)
+
 ```bash
 # Database Configuration
 MONGODB_URI=mongodb://localhost:27017/
@@ -197,6 +207,7 @@ PRIVACY_MODE=True
 ## 🔧 System Components
 
 ### 1. Data Simulation Engine (`data_simulator.py`)
+
 ```python
 """
 Generates realistic social media posts for testing without API access
@@ -206,15 +217,16 @@ Includes HP-specific content, locations, and engagement patterns
 class HPDataSimulator:
     def generate_district_posts(self, district, category, count=100):
         """Generate simulated posts for specific district and product category"""
-        
+
     def create_realistic_engagement(self):
         """Simulate likes, shares, comments with realistic patterns"""
-        
+
     def add_location_context(self, district):
         """Add HP-specific geographic and cultural context"""
 ```
 
 ### 2. Advanced AI Engine (`advanced_sentiment_engine.py`)
+
 ```python
 """
 Multi-model sentiment analysis with 85-92% accuracy
@@ -224,15 +236,16 @@ Works with both real and simulated data
 class GovernmentGradeArtisanIntelligence:
     def __init__(self, data_mode='simulation'):
         """Initialize with simulation or real data mode"""
-        
+
     def analyze_sentiment_ensemble(self, text):
         """Combine VADER + TextBlob + BERT + RoBERTa"""
-        
+
     def predict_demand_trends(self, district, products):
         """Generate demand predictions with confidence scores"""
 ```
 
 ### 3. Government Dashboard (`government_dashboard.py`)
+
 ```python
 """
 Production-ready web interface for government users
@@ -242,7 +255,7 @@ Supports both simulation and real data modes
 @app.route('/api/districts')
 def get_districts():
     """Returns all HP districts with specialties"""
-    
+
 @app.route('/api/analyze/')
 def analyze_district(district):
     """Trigger comprehensive district analysis"""
@@ -251,6 +264,7 @@ def analyze_district(district):
 ## 📊 Features & Capabilities
 
 ### ✅ Available Without Twitter API
+
 - **Multi-Model AI Analysis** (VADER, TextBlob, BERT, RoBERTa)
 - **Interactive Web Dashboard** with real-time updates
 - **District-wise Analysis** for all 10 HP districts
@@ -259,10 +273,11 @@ def analyze_district(district):
 - **MongoDB Database** with audit logging
 - **Geographic Visualization** with Leaflet maps
 - **Automated Alert System** for critical findings
-- **Historical Trend Analysis** 
+- **Historical Trend Analysis**
 - **Product Category Intelligence**
 
 ### ⚠️ Limited Without Twitter API
+
 - **Real-time Social Media Monitoring**
 - **Live Location-based Data Collection**
 - **Trending Hashtag Analysis**
@@ -271,6 +286,7 @@ def analyze_district(district):
 ## 🎯 District Coverage
 
 ### Monitored Districts & Specialties
+
 ```python
 HP_DISTRICTS = {
     'kangra': {
@@ -290,6 +306,7 @@ HP_DISTRICTS = {
 ```
 
 ### Artisan Product Categories
+
 - **Chamba Rumal** - Traditional embroidery
 - **Kangra Miniature Painting** - UNESCO recognized art
 - **Metal Craft** - Brass & copper items
@@ -304,6 +321,7 @@ HP_DISTRICTS = {
 ## 🚀 Running the System
 
 ### Option 1: Simulation Mode (Recommended for Testing)
+
 ```bash
 # Generate test data
 python data_simulator.py --districts all --posts-per-category 50
@@ -318,6 +336,7 @@ python government_dashboard.py
 ```
 
 ### Option 2: With Twitter API (Production)
+
 ```bash
 # Add Twitter credentials to .env
 echo "TWITTER_BEARER_TOKEN=your_token" >> .env
@@ -330,6 +349,7 @@ python advanced_sentiment_engine.py --mode twitter
 ```
 
 ### Option 3: Mixed Mode (Simulation + Web Scraping)
+
 ```bash
 # Enable mixed data collection
 echo "DATA_MODE=mixed" >> .env
@@ -341,6 +361,7 @@ python scripts/run_comprehensive_analysis.py
 ## 📈 Sample Analysis Output
 
 ### District Report Example (Kangra)
+
 ```
 🏛️ HIMACHAL PRADESH GOVERNMENT REPORT
 📍 DISTRICT: KANGRA
@@ -356,7 +377,7 @@ Analysis Confidence: 87.3%
 ═══════════════
 ✅ HIGH DEMAND DETECTED: 3 product categories
    • Kangra Miniature Painting: 91.2% confidence
-   • Traditional Jewelry: 84.7% confidence  
+   • Traditional Jewelry: 84.7% confidence
    • Metal Craft: 78.9% confidence
 
 📈 TRENDING INSIGHTS
@@ -384,8 +405,10 @@ Prediction Reliability: HIGH
 ### Core Endpoints
 
 #### `GET /api/districts`
+
 **Description:** Get all HP districts with specialties  
 **Response:**
+
 ```json
 {
   "kangra": {
@@ -397,9 +420,11 @@ Prediction Reliability: HIGH
 ```
 
 #### `POST /api/analyze/`
+
 **Description:** Trigger comprehensive district analysis  
 **Parameters:** `district` - District name  
 **Response:**
+
 ```json
 {
   "status": "success",
@@ -409,8 +434,10 @@ Prediction Reliability: HIGH
 ```
 
 #### `GET /api/report/`
+
 **Description:** Get latest analysis report  
 **Response:**
+
 ```json
 {
   "district": "kangra",
@@ -424,6 +451,7 @@ Prediction Reliability: HIGH
 ## 🧪 Testing & Validation
 
 ### Running Tests
+
 ```bash
 # Unit tests
 python -m pytest tests/ -v
@@ -439,6 +467,7 @@ python tests/validate_accuracy.py
 ```
 
 ### Manual Testing
+
 ```bash
 # Test sentiment analysis
 python -c "
@@ -452,6 +481,7 @@ print(f'Sentiment: {result}')
 ## 🚀 Production Deployment
 
 ### Docker Deployment
+
 ```dockerfile
 FROM python:3.9-slim
 
@@ -483,6 +513,7 @@ CMD ["python", "government_dashboard.py"]
 ```
 
 ### Production Environment Setup
+
 ```bash
 # Build Docker image
 docker build -t hp-artisan-intelligence .
@@ -500,6 +531,7 @@ docker run -d \
 ```
 
 ### System Requirements
+
 ```yaml
 Minimum Requirements:
   CPU: 2 cores, 2.4 GHz
@@ -512,7 +544,7 @@ Recommended (Production):
   RAM: 8 GB
   Storage: 50 GB SSD
   Network: 100 Mbps
-  
+
 Database:
   MongoDB: 4.4+
   Storage: 10 GB (growing 1GB/month)
@@ -520,17 +552,18 @@ Database:
 
 ## 📊 Performance Metrics
 
-| Metric | Simulation Mode | With Twitter API |
-|--------|-----------------|------------------|
-| **Analysis Speed** | 2-3 seconds | 5-8 seconds |
-| **Accuracy** | 78-82% | 85-92% |
-| **Data Volume** | 100-500 posts/district | 500-2000 posts/district |
-| **Update Frequency** | On-demand | Real-time |
-| **Resource Usage** | ~150MB RAM | ~300MB RAM |
+| Metric               | Simulation Mode        | With Twitter API        |
+| -------------------- | ---------------------- | ----------------------- |
+| **Analysis Speed**   | 2-3 seconds            | 5-8 seconds             |
+| **Accuracy**         | 78-82%                 | 85-92%                  |
+| **Data Volume**      | 100-500 posts/district | 500-2000 posts/district |
+| **Update Frequency** | On-demand              | Real-time               |
+| **Resource Usage**   | ~150MB RAM             | ~300MB RAM              |
 
 ## 🔐 Security & Compliance
 
 ### Government Standards
+
 - **✅ Audit Logging** - Complete activity tracking
 - **✅ Data Encryption** - AES-256 for sensitive data
 - **✅ Access Control** - Role-based permissions
@@ -539,11 +572,12 @@ Database:
 - **✅ Incident Response** - Automated alert system
 
 ### Data Retention Policy
+
 ```python
 # Automatic data cleanup after retention period
 RETENTION_SETTINGS = {
     'raw_social_posts': 180,      # 6 months
-    'analysis_results': 365,      # 1 year  
+    'analysis_results': 365,      # 1 year
     'audit_logs': 2555,          # 7 years (government standard)
     'reports': 1095              # 3 years
 }
@@ -554,6 +588,7 @@ RETENTION_SETTINGS = {
 ### Common Issues & Solutions
 
 #### Issue: MongoDB Connection Failed
+
 ```bash
 # Solution: Start MongoDB service
 sudo systemctl start mongod
@@ -566,6 +601,7 @@ sudo apt-get install -y mongodb-org
 ```
 
 #### Issue: AI Models Not Loading
+
 ```bash
 # Solution: Install PyTorch with correct version
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
@@ -579,6 +615,7 @@ AutoModelForSequenceClassification.from_pretrained('nlptown/bert-base-multilingu
 ```
 
 #### Issue: Dashboard Not Loading
+
 ```bash
 # Check if Flask is running
 ps aux | grep python
@@ -591,6 +628,7 @@ python government_dashboard.py --port 8080
 ```
 
 #### Issue: No Analysis Results
+
 ```bash
 # Generate fresh simulated data
 python data_simulator.py --regenerate
@@ -607,6 +645,7 @@ print('Analysis completed:', result['status'])
 ## 🚀 Getting Twitter API Access (Optional)
 
 ### For Government Organizations
+
 ```bash
 # Steps to get Twitter API for government use:
 1. Visit: https://developer.twitter.com/en/portal/petition/essential/basic-info
@@ -619,12 +658,13 @@ print('Analysis completed:', result['status'])
 ```
 
 ### Alternative Data Sources
+
 ```python
 # Reddit API (easier to get)
 import praw
 reddit = praw.Reddit(
     client_id="your_client_id",
-    client_secret="your_client_secret", 
+    client_secret="your_client_secret",
     user_agent="HP Artisan Intelligence Bot"
 )
 
@@ -642,12 +682,14 @@ news_api = requests.get(
 ## 📞 Support & Maintenance
 
 ### Support Channels
+
 - **Documentation:** [Project Wiki](https://github.com/your-org/hp-artisan-intelligence/wiki)
 - **Issues:** [GitHub Issues](https://github.com/your-org/hp-artisan-intelligence/issues)
 - **Government Support:** hp-intelligence-support@gov.in
 - **Technical Helpline:** +91-XXXX-XXXXXX
 
 ### Maintenance Schedule
+
 ```yaml
 Daily:
   - Automated health checks
@@ -673,12 +715,14 @@ Quarterly:
 ## 🏆 Success Metrics
 
 ### Government KPIs
+
 - **📈 Artisan Income Growth:** Target 15-20% annually
 - **🏭 Production Efficiency:** 25% improvement in demand-supply matching
 - **🌐 Market Reach:** 40% increase in online presence
 - **📊 Data-Driven Decisions:** 80% of policies backed by intelligence data
 
 ### System Performance
+
 - **⚡ Response Time:** 85% sentiment prediction
 - **📱 Uptime:** 99.5% availability
 - **🔍 Coverage:** All 10 HP districts monitored
@@ -705,13 +749,13 @@ Email: industries-hp@gov.in
 - **IIT Madras** - AI/ML research collaboration
 - **Open Source Community** - Core libraries and frameworks
 
-***
+---
 
 **📧 Project Contact:** hp-artisan-intelligence@gov.in  
 **🌐 Government Portal:** https://industries.hp.gov.in  
 **📱 Helpline:** 1800-XXX-XXXX (Toll Free)
 
-***
+---
 
-*Built with ❤️ for the artisans of Himachal Pradesh*  
-*Empowering traditional crafts through modern AI technology*
+_Built with ❤️ for the artisans of Himachal Pradesh_  
+_Empowering traditional crafts through modern AI technology_
